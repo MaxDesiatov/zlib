@@ -4,10 +4,10 @@ import PackageDescription
 let package = Package(
   name: "zlib",
   products: [
-    .library(name: "CZLib", targets: ["CZLib"]),
+    .library(name: "CZlib", targets: ["CZlib"]),
   ],
   targets: [
-    .target(name: "CZLib", path: ".", sources: [
+    .target(name: "CZlib", path: ".", sources: [
       "adler32.c",
       "compress.c",
       "crc32.c",
